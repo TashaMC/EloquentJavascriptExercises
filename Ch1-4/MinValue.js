@@ -1,4 +1,4 @@
-//Exersises from  http://eloquentjavascript.net/
+//Exercises from  http://eloquentjavascript.net/
 //Solver: Tasha Markovich
 
 var Math={};
