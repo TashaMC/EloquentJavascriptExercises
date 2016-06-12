@@ -27,10 +27,12 @@ var arrayToListNonRec = function(array){
    var depth = array.length-1;//Start at last index
    
     var list={
-        value:array[depth--],
+        value:array[depth--],//fill list from back to front
         rest:null
    }
+   
    var next = list;
+   //complete when array is at front
    while(depth >= 0){
        var newList = {
           value:array[depth--],
